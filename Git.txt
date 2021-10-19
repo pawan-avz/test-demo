@@ -1,0 +1,91 @@
+# Git
+
+- Git is a distributed version control or source code management system
+- Git is free software distributed under GNU license
+
+# Version Control System (VCS)
+it is a software that helps software developer to work together and maintain a complete history of their work
+- Allow developers to work simultaneously
+- prevent overwriting each other changes
+- maintain a history of every version
+
+# Type of version control system
+- centralised version control system
+- distributed / decentralised version control system
+
+# Centralised version control system
+it used a central server to store all file and folder and enable team collaborate. but the major drawback of CVCS is its single
+point of failure. in that case if the central server goes down for an hour then during that time no one can collaborate with each other
+if that server get corrupt or broken the you will lose the entire history of the project
+
+# Distributed version control system we not only checkout latest snapshot of the directory but we take full mirror image of the repo
+if the server goes down then the rep from any client can be copied back to the server
+
+
+
+# Advantages of Git
+1. free and open source
+2. fast
+3. implicit backup
+4. security
+5. no powerful hardware
+6. branch
+
+
+# Git vs GitHub
+
+
+
+> untracked file
+> snagged
+> tracked file
+
+# Git Command
+
+> git --version
+
+> git config --list
+> git config --global user.name
+> git config --global user.email
+> git config --global user.name "<name>"
+> git config --global user.name "<email>"
+
+> git init
+> git status
+> git add <file_name>
+> git add .  // all files
+> git rm --cache <file_name>
+> git commit -m "<commit message>"
+
+> git remote -v
+> git remote add origin <GitHub _url>
+
+> git push origin master
+
+
+> git init -> git add -> git commit -> git push
+
+
+> git branch <new_feature>
+
+
+
+
+# Git branch
+
+> git branch     // list of branch
+> git branch <branch_name>
+> git checkout <branch_name>
+> git merge <branch_name>   // make sure to first checkout in the branch in which you want to merge
+> git branch -d <branch_name>
+
+> git clone <git_url>
+
+Exercise
+1. clone repository
+2. create branch by your name
+3. checkout in your branch
+4. create your_name.text
+5. add
+6. commit
+7. push your branch into github
